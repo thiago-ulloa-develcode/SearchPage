@@ -1,0 +1,49 @@
+.DateGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.date-group,
+.date-group2 {
+  display: flex;
+  width: 632px;
+  height: 61px;
+  gap: 12px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 149px;
+  height: 61px;
+  flex-grow: 1;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 44px;
+  width: 149px;
+  top: 17px;
+  background-color: #ffffff;
+  border: 1px solid #bab6bc;
+  border-radius: 8px;
+}
+
+.placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #6f676c;
+  margin-left: 12px;
+  height: 16px;
+}
+
+.calendar2 {
+  margin-right: 10px;
+}

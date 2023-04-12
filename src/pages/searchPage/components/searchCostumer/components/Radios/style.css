@@ -1,0 +1,49 @@
+.radioGroup {
+  display: flex;
+  overflow: hidden;
+  width: 609px;
+  height: 20px;
+  gap: 24px;
+  justify-content: center;
+  flex-shrink: 1;
+  align-items: center;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  gap: 8px;
+  width: auto;
+}
+
+.radioText {
+  width: auto;
+  height: 19px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  white-space: nowrap;
+  color: #6f676c;
+}
+
+input[type="radio"] {
+  appearance: none; /* Remove a aparência padrão do radio */
+  width: 20px; /* Define a largura e a altura do radio */
+  height: 20px;
+  border-radius: 50%; /* Torna o radio circular */
+  border: 1px solid black; /* Define a cor e a largura da borda */
+  outline: none; /* Remove o contorno ao redor do radio quando ele recebe o foco */
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 10px; /* Define a largura e a altura do círculo central */
+  height: 10px;
+  margin: 4px; /* Define a margem para centralizar o círculo */
+  border-radius: 50%; /* Torna o círculo central circular */
+  background-color: #41a017; /* Define a cor de fundo do círculo central */
+}

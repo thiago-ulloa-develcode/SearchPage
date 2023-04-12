@@ -1,0 +1,154 @@
+.searchPage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 2000px;
+  background-color: #e5e5e5;
+}
+
+.container.advancedSrc {
+  width: 680px;
+  height: 1635px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 71px;
+  background: #ffffff;
+}
+
+.header.content {
+  display: flex;
+  justify-content: space-between;
+  width: 632px;
+  height: 22px;
+  left: 24px;
+  top: 24px;
+}
+
+.busca {
+  width: 62px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  color: #554f52;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  width: 50%;
+}
+
+.align-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 11.97px;
+  width: 50%;
+  height: 22px;
+}
+
+.toggle-show-hide-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  width: 218px;
+  height: 20px;
+}
+
+.toggle-show-hide-base :hover {
+  cursor: pointer;
+}
+
+label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: right;
+  width: 204px;
+  height: 20px;
+  color: #554f52;
+}
+
+.label {
+  color: #222020;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  width: auto !important;
+  text-align: left !important;
+}
+
+#closeButton:hover {
+  cursor: pointer;
+}
+
+.rect.fill {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background: #a19ba2;
+}
+
+.content-advancedSrc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 680px;
+  height: 1471px;
+}
+
+.scrollable-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 24px;
+  width: 680px;
+  height: 1471px;
+}
+
+.title {
+  width: fit-content;
+  height: 27px;
+  size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  color: #554f52;
+}
+
+#srcInput {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 44px;
+  top: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #6f676c;
+  border: none;
+  background-color: transparent;
+}
